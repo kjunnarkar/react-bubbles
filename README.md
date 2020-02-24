@@ -27,10 +27,23 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+When a user sucessfully logs into a secure website, an authorization token can be issed to the user which allows access to specific (confidential) parts of a user's data. Without the token, the user data cannot be accessed. The user must provide valid credentials in order to be issued the token.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+Web apps can require the user to input valid credentials in order to issue a token. The app can then require a token in order to access certain areas of user data. Additionally, on user logout, the app could remove the token. The app can also set a timeout feature that automatically logs the user out after a period of inactivity.
+
 - [ ] Describe how web servers work.
+
+The user makes a request on the browser, the request is sent through the internet to the ISP, the request is then sent through DNS servers, where a IP address for the request is resolved. After the address is found, the request is sent to the web server to deliver the requested services. After the services are retrieved by the server, they are sent back to the user's browser back through the methods previously mentioned.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
+Create - Post is used to create new objects. Basically adding new data or adding a new instance to the data.
+Read - Get is used to pull the data for viewing. Allows user to read the data that is retrieved.
+Update - Post is used to update or make changes to the existing data. Post request manipulates the data.
+Delete - Delete is used to remove the data. 
 
 ## Project Set Up
 

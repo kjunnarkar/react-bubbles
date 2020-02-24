@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+body {
+  background-color: grey;
+}
+
 html,
 body,
 #root,
@@ -96,4 +100,40 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.form-setup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.enter-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  margin-top: 30px;
+}
+
+.top-heading {
+  margin-top: 15%;
+}
+
+.top-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.list-links {
+  text-decoration: none;
+  color: blue;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  margin-left: 10%;
 }
